@@ -21,7 +21,7 @@
                 case 1: nombres = new[] { "x1", "y1", "m", "" }; break;
                 case 2: nombres = new[] { "m", "b", "", "" }; break;
                 case 3: nombres = new[] { "A", "B", "C", "" }; break;
-                case 4: nombres = new[] { "a (en x)", "b (en y)", "", "" }; break;
+                case 4: nombres = new[] { "a\n(en x)", "b\n(en y)", "", "" }; break;
             }
 
             Label[] lbls = { lblV1, lblV2, lblV3, lblV4 };
@@ -80,6 +80,16 @@
             {
                 MessageBox.Show("Elige un tipo e ingresa números en los campos");
             }
+        }
+
+        private void lblV1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblV2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

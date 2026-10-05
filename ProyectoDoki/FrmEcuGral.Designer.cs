@@ -65,7 +65,7 @@
             label1.Location = new Point(168, 88);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(609, 26);
+            label1.Size = new Size(411, 17);
             label1.TabIndex = 3;
             label1.Text = "Ingresa los coeficientes de Ax² + Bxy + Cy² + Dx + Ey + F = 0";
             // 
@@ -75,7 +75,7 @@
             label2.BackColor = Color.Khaki;
             label2.Location = new Point(168, 186);
             label2.Name = "label2";
-            label2.Size = new Size(39, 26);
+            label2.Size = new Size(27, 17);
             label2.TabIndex = 4;
             label2.Text = "A=";
             // 
@@ -85,7 +85,7 @@
             label3.BackColor = Color.Khaki;
             label3.Location = new Point(455, 186);
             label3.Name = "label3";
-            label3.Size = new Size(39, 26);
+            label3.Size = new Size(27, 17);
             label3.TabIndex = 5;
             label3.Text = "B=";
             // 
@@ -95,7 +95,7 @@
             label4.BackColor = Color.Khaki;
             label4.Location = new Point(168, 267);
             label4.Name = "label4";
-            label4.Size = new Size(38, 26);
+            label4.Size = new Size(26, 17);
             label4.TabIndex = 6;
             label4.Text = "C=";
             // 
@@ -105,7 +105,7 @@
             label5.BackColor = Color.Khaki;
             label5.Location = new Point(455, 267);
             label5.Name = "label5";
-            label5.Size = new Size(41, 26);
+            label5.Size = new Size(28, 17);
             label5.TabIndex = 7;
             label5.Text = "D=";
             // 
@@ -116,7 +116,7 @@
             label6.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.Location = new Point(168, 352);
             label6.Name = "label6";
-            label6.Size = new Size(40, 28);
+            label6.Size = new Size(27, 19);
             label6.TabIndex = 8;
             label6.Text = "E=";
             // 
@@ -126,7 +126,7 @@
             label7.BackColor = Color.Khaki;
             label7.Location = new Point(455, 352);
             label7.Name = "label7";
-            label7.Size = new Size(37, 26);
+            label7.Size = new Size(25, 17);
             label7.TabIndex = 9;
             label7.Text = "F=";
             // 
@@ -134,14 +134,14 @@
             // 
             txtA.Location = new Point(222, 179);
             txtA.Name = "txtA";
-            txtA.Size = new Size(150, 33);
+            txtA.Size = new Size(150, 25);
             txtA.TabIndex = 10;
             // 
             // txtC
             // 
             txtC.Location = new Point(222, 260);
             txtC.Name = "txtC";
-            txtC.Size = new Size(150, 33);
+            txtC.Size = new Size(150, 25);
             txtC.TabIndex = 11;
             txtC.TextChanged += txtC_TextChanged;
             // 
@@ -149,28 +149,28 @@
             // 
             txtE.Location = new Point(222, 349);
             txtE.Name = "txtE";
-            txtE.Size = new Size(150, 33);
+            txtE.Size = new Size(150, 25);
             txtE.TabIndex = 12;
             // 
             // txtB
             // 
             txtB.Location = new Point(512, 179);
             txtB.Name = "txtB";
-            txtB.Size = new Size(150, 33);
+            txtB.Size = new Size(150, 25);
             txtB.TabIndex = 13;
             // 
             // txtD
             // 
             txtD.Location = new Point(512, 260);
             txtD.Name = "txtD";
-            txtD.Size = new Size(150, 33);
+            txtD.Size = new Size(150, 25);
             txtD.TabIndex = 14;
             // 
             // txtF
             // 
             txtF.Location = new Point(512, 349);
             txtF.Name = "txtF";
-            txtF.Size = new Size(150, 33);
+            txtF.Size = new Size(150, 25);
             txtF.TabIndex = 15;
             // 
             // btnIdentifica
@@ -190,7 +190,7 @@
             lblResultado.BackColor = Color.LemonChiffon;
             lblResultado.Location = new Point(384, 482);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(0, 26);
+            lblResultado.Size = new Size(0, 17);
             lblResultado.TabIndex = 17;
             // 
             // label8
@@ -199,13 +199,13 @@
             label8.BackColor = Color.NavajoWhite;
             label8.Location = new Point(331, 31);
             label8.Name = "label8";
-            label8.Size = new Size(218, 26);
+            label8.Size = new Size(148, 17);
             label8.TabIndex = 18;
             label8.Text = "ECUACIÓN GENERAL";
             // 
             // FrmEcuGral
             // 
-            AutoScaleDimensions = new SizeF(13F, 26F);
+            AutoScaleDimensions = new SizeF(9F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1134, 591);
             Controls.Add(label8);
@@ -227,6 +227,7 @@
             Font = new Font("Cambria", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Margin = new Padding(4, 3, 4, 3);
             Name = "FrmEcuGral";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmEcuGral";
             Controls.SetChildIndex(btnAtras, 0);
             Controls.SetChildIndex(btnCerrar, 0);

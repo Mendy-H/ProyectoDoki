@@ -38,9 +38,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(23, 12);
+            pictureBox1.Location = new Point(16, 7);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(129, 114);
+            pictureBox1.Size = new Size(90, 68);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -49,9 +50,10 @@
             // 
             btnAtras.BackColor = Color.MistyRose;
             btnAtras.Font = new Font("Yu Gothic UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnAtras.Location = new Point(12, 463);
+            btnAtras.Location = new Point(8, 278);
+            btnAtras.Margin = new Padding(2, 2, 2, 2);
             btnAtras.Name = "btnAtras";
-            btnAtras.Size = new Size(211, 59);
+            btnAtras.Size = new Size(148, 35);
             btnAtras.TabIndex = 1;
             btnAtras.Text = "Atrás";
             btnAtras.UseVisualStyleBackColor = false;
@@ -61,9 +63,10 @@
             // 
             btnCerrar.BackColor = Color.PaleTurquoise;
             btnCerrar.Font = new Font("Yu Gothic UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnCerrar.Location = new Point(638, 463);
+            btnCerrar.Location = new Point(447, 278);
+            btnCerrar.Margin = new Padding(2, 2, 2, 2);
             btnCerrar.Name = "btnCerrar";
-            btnCerrar.Size = new Size(211, 59);
+            btnCerrar.Size = new Size(148, 35);
             btnCerrar.TabIndex = 2;
             btnCerrar.Text = "Cerrar";
             btnCerrar.UseVisualStyleBackColor = false;
@@ -71,14 +74,16 @@
             // 
             // FrmBase
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(874, 551);
+            ClientSize = new Size(612, 331);
             Controls.Add(btnCerrar);
             Controls.Add(btnAtras);
             Controls.Add(pictureBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "FrmBase";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmBase";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

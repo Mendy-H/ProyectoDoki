@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace ProyectoDoki
 {
     public partial class Form1 : Form
@@ -39,6 +42,9 @@ namespace ProyectoDoki
                 case "Parábola":
                     frm = new FrmParabola();
                     break;
+                case "Hipérbola":
+                    frm = new FrmHiperbola();
+                    break;
                 case "Ecuación General":
                     frm = new FrmEcuGral();
                     break;
@@ -46,6 +52,7 @@ namespace ProyectoDoki
                     MessageBox.Show("Elige una opción valia");
                     return;
             }
+
             frm.Owner = this;
             this.Hide();
             frm.Show();
@@ -54,7 +61,7 @@ namespace ProyectoDoki
         private void btnAcerca_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hola :D\n Este programa fue creado por Donovan y Wendy\n EQUIPO DOKI\n ", "Acerca de Doki's company", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+
         }
     }
 }
